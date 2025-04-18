@@ -32,7 +32,5 @@ try:
     button_submit.click()
 
 finally:
-    # успеваем скопировать код за 30 секунд
     time.sleep(15)
-    # закрываем браузер после всех манипуляций
     browser.quit()
